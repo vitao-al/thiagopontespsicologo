@@ -14,7 +14,7 @@ function PostModal({ post, isOpen, onClose }: PostModalProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-75">
-      <div className="bg-berge dark:bg-neutral-800 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+      <div className="bg-gray-50 dark:bg-neutral-800 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
         <div className="relative">
           <button
             onClick={onClose}
@@ -60,13 +60,13 @@ export default function InstagramGallery() {
   const [selectedPost, setSelectedPost] = useState<InstagramPost | null>(null);
 
   return (
-    <section id="instagram" className="py-20 bg-berge dark:bg-neutral-900">
+    <section id="instagram" className="py-20 bg-gray-50 dark:bg-neutral-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Instagram className="h-8 w-8 text-laranja" />
             <h2 className="text-3xl font-poppins font-normal bg-gradient-to-r from-[#D37037] via-[#8C8E45] to-[#C1C991] bg-clip-text text-transparent">
-              Siga-nos no Instagram
+              Me acompanhe no Instagram
             </h2>
           </div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto font-poppins font-normal">

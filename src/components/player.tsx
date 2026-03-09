@@ -28,7 +28,7 @@ export default function PlayerMusic() {
   };
 
   return (
-    <div className="w-full bg-verde-musgo text-white flex items-center gap-4 p-4 rounded-lg">
+    <div className="w-full bg-musgo text-white flex items-center gap-4 p-4 rounded-lg">
 
       <audio
         ref={audioRef}

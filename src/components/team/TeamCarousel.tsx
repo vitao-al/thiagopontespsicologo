@@ -88,14 +88,13 @@ export default function TeamCarousel() {
             ))}
           </div>
           <div className="text-center mt-12">
-          <a
-            href="https://www.instagram.com/psithiagopontes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center space-x-2 text-laranja px-6 py-3 rounded-lg transition-colors font-semibold hover:text-white transition-colors group inline-flex items-center"
-          >
-            <p className="text-laranja font-bold font-poppins text-lg hover:text-berge dark:hover:text-white transition-colors group inline-flex items-center">Vamos caminhar juntos nesse processo?</p><p className="ml-2 group-hover:translate-x-2 transition-transform">→</p>
-          </a>
+            <p className="text-laranja font-bold font-poppins text-lg hover:text-berge dark:hover:text-white transition-colors group inline-flex items-center">A psicoterapia pode ser um espaço para olhar com mais cuidado para o que você está vivendo.</p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B558299993802&text&type=phone_number&app_absent=0&wame_ctl=1"
+              className="inline-block bg-laranja dark:bg-gold-500 text-white px-6 md:px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-gold-500 dark:hover:bg-white hover:dark:text-gold-500 transition-colors text-sm md:text-base"
+            >
+              Agende uma Consulta
+            </a>
         </div>
         </div>
       </div>

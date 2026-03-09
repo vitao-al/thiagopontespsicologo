@@ -7,7 +7,8 @@ export default {
       colors: {
           'berge': '#F3EDD7',
           'laranja': '#D37037',
-          'verde-musgo': '#8C8E45',
+          'musgo-escuro': '#707238',
+          'musgo': '#8C8E45',
           'musgo-claro': '#C1C991',
       },
         fontFamily: {

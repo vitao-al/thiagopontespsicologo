@@ -19,7 +19,6 @@ export default function LawyerCard({ lawyer }: LawyerCardProps) {
         <h3 className="text-lg font-poppins font-normal text-gray-900 mb-2">
           {lawyer.name}
         </h3>
-        <p className="text-verde-musgo font-medium text-xs md:text-sm mb-2">{lawyer.role}</p>
         <p className="text-xs text-verde-musgo mb-2">{lawyer.crp}</p>
         <div className="space-x-1">
           {lawyer.specialties.map((specialty) => (
