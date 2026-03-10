@@ -1,21 +1,36 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Tally5, Scale,Users, Landmark } from 'lucide-react';
+import { Brain, UserCircle, Users,Scale, Route, HeartPulse } from 'lucide-react';
 
 const services = [
   {
-    icon: <Tally5 className="h-8 w-8" />,
-    title: 'Título',
-    description: 'Descricão'
+    icon: <Brain className="h-8 w-8" />,
+    title: 'Ansiedade e sobrecarga emocional',
+    description: 'Manejo de preocupações persistentes, tensão e experiências de sobrecarga no cotidiano.'
+  },
+  {
+    icon: <UserCircle className="h-8 w-8" />,
+    title: 'Autocrítica e autoestima',
+    description: 'Trabalho com formas rígidas de autocrítica e desenvolvimento de uma relação mais equilibrada consigo.'
   },
   {
     icon: <Users className="h-8 w-8" />,
-    title: 'Título',
-    description: 'Descricão'
+    title: 'Relações e vínculos',
+    description: 'Reflexão sobre dinâmicas relacionais e construção de formas mais saudáveis de vínculo.'
   },
   {
-    icon: <Landmark className="h-8 w-8" />,
-    title: 'Título',
-    description: 'Descricão'
+    icon: <Scale className="h-8 w-8" />,
+    title: 'Regulação emocional',
+    description: 'Desenvolvimento de maior consciência emocional e de estratégias mais adaptativas de regulação.'
+  },
+  {
+    icon: <Route className="h-8 w-8" />,
+    title: 'Transições e momentos de vida',
+    description: 'Acompanhamento em períodos de mudança, perdas e processos de reorganização pessoal.'
+  },
+  {
+    icon: <HeartPulse className="h-8 w-8" />,
+    title: 'Dor física e sofrimento emocional',
+    description: 'Compreensão da relação entre experiências corporais e emocionais no processo terapêutico.'
   }
 ];
 

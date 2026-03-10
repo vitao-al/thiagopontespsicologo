@@ -44,7 +44,7 @@ export default function ChatInput({ onSend }: ChatInputProps) {
       <button
         type="submit"
         className="
-        bg-verde-musgo
+        bg-musgo
         text-berge
         hover:bg-musgo-claro
         focus:ring-blue-500

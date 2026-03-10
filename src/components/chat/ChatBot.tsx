@@ -48,7 +48,7 @@ export default function ChatBot() {
   return (
     <div className="fixed bottom-4 right-4 z-50">
       {isOpen ? (
-        <div className="bg-verde-musgo rounded-lg shadow-xl w-[90vw] max-w-[350px] h-[500px] flex flex-col">
+        <div className="bg-musgo rounded-lg shadow-xl w-[90vw] max-w-[350px] h-[500px] flex flex-col">
           <div className="bg-gold-500 text-white p-4 rounded-t-lg flex justify-between items-center">
             <h3 className=" text-berge dark:text-white text-sm md:text-base font-poppins font-normal">Dúvidas frequentes</h3>
             <button
@@ -78,7 +78,8 @@ export default function ChatBot() {
         <button
           onClick={() => setIsOpen(true)}
           className="
-          bg-verde-musgo
+          bg-musgo
+          hover:bg-musgo-escuro
           text-berge
           hover:bg-laranja
           hover:tex-berge

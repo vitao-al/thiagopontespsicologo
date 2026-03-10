@@ -17,28 +17,28 @@ export default function Contact() {
               <h3 className="text-2xl font-poppins font-normal text-laranja dark:text-laranja mb-6">Informações de Contato</h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <MapPin className="h-6 w-6 text-verde-musgo dark:text-verde-musgo mt-1" />
+                  <MapPin className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">Endereço</h4>
                     <p className="text-sm md:text-base text-gray-600 dark:text-gray-400"> Rua comendador Palmeira, 493 - Empresarial Comendador Palmeira, sala 114 (Farol) Maceió/AL</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Phone className="h-6 w-6 text-verde-musgo dark:text-verde-musgo mt-1" />
+                  <Phone className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">Telefone</h4>
                     <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">+55 (82) 9999-3802</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Mail className="h-6 w-6 text-verde-musgo dark:text-verde-musgo mt-1" />
+                  <Mail className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">E-mail</h4>
                     <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">psithiagopontes@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Clock className="h-6 w-6 text-verde-musgo dark:text-verde-musgo mt-1" />
+                  <Clock className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">Horário de Atendimento</h4>
                     <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">Hora marcada</p>

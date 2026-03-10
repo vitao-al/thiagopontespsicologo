@@ -13,7 +13,7 @@ export default function Hero() {
               Psicologia Clínica | TCC e terapias contextuais
             </span>
             <h1 className="text-2xl md:text-2xl lg:text-4xl font-poppins font-bold text-stone-800 leading-[1.1] mb-6 text-balance">
-              Cuidar da <span className='text-musgo'>saúde</span> mental é olhar para a experiência <span className='text-musgo'>humana</span>.
+              "Cuidar da <span className='text-musgo'>saúde</span> mental é olhar para a experiência <span className='text-musgo'>humana</span>."
             </h1>
             <h1 className="text-lg text-stone-600 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0 font-poppins font-normal">
               A psicoterapia é um espaço de encontro, escuta e construção de novas formas de lidar com emoções, relações e desafios da vida.

@@ -19,12 +19,12 @@ export default function LawyerCard({ lawyer }: LawyerCardProps) {
         <h3 className="text-lg font-poppins font-normal text-gray-900 mb-2">
           {lawyer.name}
         </h3>
-        <p className="text-xs text-verde-musgo mb-2">{lawyer.crp}</p>
+        <p className="text-xs text-musgo mb-2">{lawyer.crp}</p>
         <div className="space-x-1">
           {lawyer.specialties.map((specialty) => (
             <span
               key={specialty}
-              className="inline-block text-xs bg-blue-50 text-verde-musgo px-2 py-1 rounded-full"
+              className="inline-block text-xs bg-green-50 text-musgo px-2 py-1 rounded-full"
             >
               {specialty}
             </span>
