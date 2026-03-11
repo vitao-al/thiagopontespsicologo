@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="inicio" className="pt-20 lg:pt-24">
       <div className="relative min-h-[600px]">
         <div className="absolute inset-0 bg-gray-50"></div>
-        <div className="relative container mx-auto px-4 py-12 h-full">
+        <div className="relative container mx-auto px-1 py-12 h-full">
 
           {/* Container principal: coluna no mobile, linha no desktop */}
           <div className="flex flex-col lg:flex-row items-center gap-10">
@@ -42,7 +42,7 @@ export default function Hero() {
               <img
                 src="/thiagopontes5.jpeg"
                 alt="Imagem de destaque"
-                className="w-2/4 max-w-sm lg:max-w-full object-cover rounded-lg shadow-lg"
+                className="w-3/4 h-2/4 max-w-sm lg:max-w-full object-cover rounded-lg shadow-lg"
               />
             </div>
 

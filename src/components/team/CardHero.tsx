@@ -3,7 +3,7 @@ import { Instagram, ChevronLeft, ChevronRight } from 'lucide-react';
 import { lawyers } from '../../data/lawyers';
 import LawyerCard from './LawyerCard';
 
-export default function TeamCarousel() {
+export default function CardHero() {
   
   return (
     <section id="equipe" className="py-20 bg-white dark:bg-neutral-900">

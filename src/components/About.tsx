@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Award, Users, Building } from 'lucide-react';
+import { Award, Users, Building, Car } from 'lucide-react';
 import PlayerMusic from './player';
-import TeamCarousel from './team/CardHero';
+import CardHero from './team/CardHero';
 
 
 export default function About() {
@@ -29,6 +29,7 @@ export default function About() {
     <section id="sobre" className="py-20 bg-white dark:bg-black">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <CardHero/>
           <div>
             <h2 className="text-3xl font-normal font-poppins text-laranja dark:text-laranja mb-6">
               Sobre mim
@@ -49,7 +50,6 @@ export default function About() {
             </p>
             
           </div>  
-          <TeamCarousel/>
         </div>
       </div>
     </section>
