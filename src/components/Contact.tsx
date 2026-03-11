@@ -11,7 +11,7 @@ export default function Contact() {
             Estou à disposição para atender suas necessidades.
           </p>
         </div>
-        <div className="text-center mt-6 mb-12 rounded-lg">
+        <div className="text-center mt-6 mb-16 rounded-lg">
           <a
             href="https://www.instagram.com/psithiagopontes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"

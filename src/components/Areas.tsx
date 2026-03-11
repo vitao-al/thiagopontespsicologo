@@ -76,12 +76,14 @@ export default function Areas() {
   return (
     <section id="areas" className=" bg-white dark:bg-neutral-800 py-5">
       <div className="container mx-auto px-4 py-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 font-poppins font-normal">Como posso te ajudar?</h2>
           <p className="text-neutral-800 dark:text-white max-w-2xl mx-auto font-poppins font-normal">
             A psicoterapia é um espaço seguro para desenvolver estratégias eficazes para lidar com suas emoções e desafios da vida.
           </p>
-          <p className="text-xl font-bold text-laranja dark:text-laranja mb-4 py-5">ÁREAS DE ATUAÇÃO</p>
+        </div>
+        <div className="text-center">
+          <p className="text-3xl font-bold text-laranja dark:text-laranja ">ÁREAS DE ATUAÇÃO</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-poppins font-normal">
           {services.map((service, index) => (
