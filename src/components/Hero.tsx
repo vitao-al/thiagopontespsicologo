@@ -29,7 +29,7 @@ export default function Hero() {
                   Agendar
                 </a>
                 <a
-                  href="#Saber mais"
+                  href="https://api.whatsapp.com/send/?phone=%2B558299993802&text&type=phone_number&app_absent=0&wame_ctl=1"
                   className="inline-block bg-musgo text-white px-6 md:px-8 py-3 rounded-md font-semibold hover:bg-musgo-escuro dark:hover:bg-musgo-escuro transition-colors text-sm md:text-base text-center"
                 >
                   Saber mais
