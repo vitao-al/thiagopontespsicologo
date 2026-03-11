@@ -15,7 +15,7 @@ export default function LawyerCard({ lawyer }: LawyerCardProps) {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="p-4 bg-gray-50 dark:bg-neutral-800">
+      <div className="p-4 bg-white dark:bg-neutral-800">
         <h3 className="text-lg font-poppins font-normal text-musgo mb-2">
           {lawyer.name}
         </h3>

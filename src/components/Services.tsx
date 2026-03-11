@@ -74,7 +74,7 @@ const ServiceCard = ({ service, index }: { service: typeof services[0], index: n
 
 export default function Services() {
   return (
-    <section id="servicos" className="py-20 bg-gray-50 dark:bg-neutral-800">
+    <section id="servicos" className="py-20 bg-white dark:bg-neutral-800">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-sm font-bold text-laranja dark:text-laranja mb-4 ">ÁREAS DE ATUAÇÃO</h2>
