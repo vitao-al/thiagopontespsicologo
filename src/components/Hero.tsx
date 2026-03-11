@@ -32,7 +32,7 @@ export default function Hero() {
                   href="#palestras-e-projetos"
                   className="inline-block bg-musgo text-white px-6 md:px-8 py-3 rounded-md font-semibold hover:bg-musgo-escuro dark:hover:bg-musgo-escuro transition-colors text-sm md:text-base text-center"
                 >
-                  Palestras e Projetos
+                  Saber mais
                 </a>
               </div>
             </div>
