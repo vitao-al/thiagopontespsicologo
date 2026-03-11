@@ -15,11 +15,10 @@ export default function Header() {
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-8">
-              <a href="#inicio" className="font-normal font-poppins text-verde-musgo hover:text-laranja dark:text-gold-500 dark:hover:text-white transition-color">Início</a>
-              <a href="#sobre" className="font-normal font-poppins text-verde-musgo hover:text-laranja dark:text-gold-500 dark:hover:text-white transition-colors">Sobre</a>
-              <a href="#servicos" className="font-normal font-poppins text-verde-musgo hover:text-laranja dark:text-gold-500 dark:hover:text-white transition-colors">Serviços</a>
-              <a href="#instagram" className="font-normal font-poppins text-verde-musgo hover:text-gold-laranja dark:text-gold-500 dark:hover:text-white transition-colors">Instagram</a>
-              <a href="#contato" className="font-normal font-poppins text-verde-musgo hover:text-laranja dark:text-gold-500 dark:hover:text-white transition-colors">Contato</a>
+              <a href="#inicio" className="font-normal font-poppins text-verde-musgo hover:text-laranja dark:text-musgo dark:hover:text-white transition-color">Início</a>
+              <a href="#sobre" className="font-normal font-poppins text-verde-musgo hover:text-laranja dark:text-musgo dark:hover:text-white transition-colors">Sobre</a>
+              <a href="#servicos" className="font-normal font-poppins text-verde-musgo hover:text-laranja dark:text-musgo dark:hover:text-white transition-colors">Serviços</a>
+              <a href="#contato" className="font-normal font-poppins text-verde-musgo hover:text-laranja dark:text-musgo dark:hover:text-white transition-colors">Contato</a>
             </nav>
             <ThemeToggle />
           </div>
@@ -27,7 +26,7 @@ export default function Header() {
             <ThemeToggle />
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 rounded-lg text-verde-musgo hover:text-gold-500 dark:text-gold-500 dark:hover:text-white transition-colors"
+              className="p-2 rounded-lg text-verde-musgo hover:text-musgo dark:text-musgo dark:hover:text-white transition-colors"
             >
               <Menu className="h-6 w-6" />
             </button>

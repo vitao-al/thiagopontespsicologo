@@ -11,7 +11,7 @@ import ChatBot from './components/chat/ChatBot';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-neutral-800">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       <Header />
       <main>
         <Hero />
