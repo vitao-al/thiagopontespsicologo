@@ -18,7 +18,7 @@ export default function InstagramGallery() {
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Instagram className="h-8 w-8 text-laranja" />
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
+            <h2 className="py-5 text-3xl font-bold text-gray-900 dark:text-white">
               Me acompanhe no Instagram!
             </h2>
           </div>
