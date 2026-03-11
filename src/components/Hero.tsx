@@ -3,7 +3,7 @@ import React from 'react';
 export default function Hero() {
   return (
     <section id="inicio" className="pt-20 lg:pt-24">
-      <div className="relative min-h-[600px]">
+      <div className="relative min-h-[500px]">
         <div className="absolute inset-0 bg-gray-50 dark:bg-black"></div>
         <div className="relative container mx-auto px-1 py-12 h-full">
 
