@@ -6,7 +6,7 @@ import LawyerCard from './LawyerCard';
 export default function CardHero() {
   
   return (
-    <section id="equipe" className="py-20 bg-white dark:bg-black">
+    <section id="equipe" className="bg-white dark:bg-black">
       <div className="container mx-auto px-4">
         <div className="relative max-w-5xl mx-auto flex flex-col items-center">
           <div className="flex items-center justify-center min-h-[300px] h-3/4w-full overflow-hidden">
