@@ -21,12 +21,12 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   return (
     <div className="fixed inset-0 z-50 lg:hidden">
       <div className="fixed inset-0" onClick={onClose} />
-      <div className="fixed right-0 top-0 h-full w-full max-w-sm bg-musgo-claro transform transition-transform duration-300 ease-out">
-        <div className=" p-2 border-neutral-800 rounded">
+      <div className="fixed right-0 top-0 h-full w-full max-w-sm text-musgo bg-musgo-claro transform transition-transform duration-300 ease-out">
+        <div className=" p-2 border-musgo rounded">
           <div className="flex items-center justify-between">
             <button 
               onClick={onClose}
-              className="p-2 text-gray-400 hover:text-white transition-colors"
+              className="p-2 text-berge  hover:text-white transition-colors"
             >
               <X className="h-6 w-6" />
             </button>

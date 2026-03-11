@@ -26,7 +26,7 @@ export default function Header() {
             <ThemeToggle />
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 rounded-lg text-verde-musgo hover:text-musgo dark:text-musgo dark:hover:text-white transition-colors"
+              className="p-2 rounded-lg text-musgo hover:text-musgo dark:text-musgo dark:hover:text-white transition-colors"
             >
               <Menu className="h-6 w-6" />
             </button>
