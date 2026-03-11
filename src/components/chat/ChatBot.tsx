@@ -14,7 +14,7 @@ export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     {
-      text: "Olá! Sou o assistente que irá responder dúvidas frequentes. Como posso ajudar? \n1 - Pergunta \n2 - Pergunta \n3 - Pergunta \n4 - Pergunta",
+      text: "Olá! Sou o assistente que irá responder dúvidas frequentes. Como posso ajudar? \n1 - Quando é o momento de procurar psicoterapia? \n2 - A psicoterapia é indicada apenas em momentos de sofrimento intenso? \n3 - É possível iniciar psicoterapia mesmo sem saber exatamente o que está acontecendo? \n4 - A psicoterapia envolve aconselhamento ou respostas prontas?\n5 - Quanto tempo dura o processo de psicoterapia? \n6 - Qual é a duração de cada sessão? \n7 - Os atendimentos podem acontecer de forma online? \n8 - Em quais horários acontecem os atendimentos?\n9 - Os atendimentos são realizados por convênios? \n10 - Qual é o valor da sessão?",
       isBot: true
     }
   ]);
