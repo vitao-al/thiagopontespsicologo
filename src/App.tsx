@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ChatBot from './components/chat/ChatBot';
+import InstagramGallery from './components/InstagramGallery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Areas/>
         <Services />
+        <InstagramGallery/>
         <Contact />
       </main>
       <Footer />
