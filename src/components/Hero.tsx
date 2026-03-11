@@ -29,7 +29,7 @@ export default function Hero() {
                   Agendar
                 </a>
                 <a
-                  href="#palestras-e-projetos"
+                  href="#Saber mais"
                   className="inline-block bg-musgo text-white px-6 md:px-8 py-3 rounded-md font-semibold hover:bg-musgo-escuro dark:hover:bg-musgo-escuro transition-colors text-sm md:text-base text-center"
                 >
                   Saber mais
