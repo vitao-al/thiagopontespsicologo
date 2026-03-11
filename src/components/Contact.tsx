@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Instagram } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -11,6 +11,17 @@ export default function Contact() {
             Estou à disposição para atender suas necessidades.
           </p>
         </div>
+        <div className="text-center mt-6 mb-12 rounded-lg">
+          <a
+            href="https://www.instagram.com/psithiagopontes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center space-x-2 bg-gradient-to-r from-laranja via-musgo to-berge text-white px-6 py-3 rounded-lg transition-colors font-semibold transition-all group shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+          >
+            <Instagram className="h-5 w-5" />
+            <span>Seguir @psithiagopontes</span>
+          </a>
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <div className="bg-white dark:bg-neutral-800 p-4 md:p-8 rounded-lg shadow-sm">
@@ -20,7 +31,7 @@ export default function Contact() {
                   <MapPin className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">Endereço</h4>
-                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400"> Rua comendador Palmeira, 493 - Empresarial Comendador Palmeira, sala 114 (Farol) Maceió/AL</p>
+                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">Rua comendador Palmeira, 493 - Empresarial Comendador Palmeira, sala 114 (Farol) Maceió/AL</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">

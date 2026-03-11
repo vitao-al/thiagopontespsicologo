@@ -18,7 +18,6 @@ function App() {
         <About />
         <Areas/>
         <Services />
-        <InstagramGallery/>
         <Contact />
       </main>
       <Footer />

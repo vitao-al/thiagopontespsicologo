@@ -10,7 +10,7 @@ export default function Footer() {
             <img src="/thiagoponteslogo.png" alt="Logo" className="h-2/4 w-2/4" />
           </div>
           <div className="text-sm">
-            © {new Date().getFullYear()} Thiago Pontes Psicólgo. Todos os direitos reservados.
+            © {new Date().getFullYear()} Thiago Pontes Psicólogo. Todos os direitos reservados.
           </div>
         </div>
       </div>
