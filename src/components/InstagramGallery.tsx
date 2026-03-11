@@ -56,7 +56,7 @@ export default function InstagramGallery() {
                     {new Date(post.date).toLocaleDateString('pt-BR')}
                   </span>
                 </div>
-                <p className="text-sm bg-gray-50 text-gray-800 dark:text-white line-clamp-2">
+                <p className="text-sm text-gray-800 dark:text-white line-clamp-2">
                   {post.caption}
                 </p>
               </div>
