@@ -14,7 +14,7 @@ export default function CardHero() {
               {lawyers.map((lawyer) => (
                 <div
                   key={lawyer.id}
-                  className="w-full flex-shrink-0 px-2 md:px-4 flex justify-center"
+                  className="w-full flex-shrink-0 px-2 py-4 md:px-4 flex justify-center"
                 >
                   <LawyerCard lawyer={lawyer} />
                 </div>
