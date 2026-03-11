@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Award, Users, Building } from 'lucide-react';
 import PlayerMusic from './player';
+import TeamCarousel from './team/CardHero';
 
 
 export default function About() {
@@ -48,7 +49,7 @@ export default function About() {
             </p>
             
           </div>  
-          <PlayerMusic/>
+          <TeamCarousel/>
         </div>
       </div>
     </section>

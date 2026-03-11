@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
-import TeamCarousel from './components/team/TeamCarousel';
+import TeamCarousel from './components/team/CardHero';
 import InstagramGallery from './components/InstagramGallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -17,7 +17,6 @@ function App() {
         <Hero />
         <About />
         <Services />
-        <TeamCarousel />
         <InstagramGallery />
         <Contact />
       </main>
