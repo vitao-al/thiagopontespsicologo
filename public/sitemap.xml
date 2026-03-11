@@ -6,12 +6,3 @@
     <priority>1.0</priority>
   </url>
 </urlset>
-```
-
----
-
-**`public/robots.txt`:**
-```
-User-agent: *
-Allow: /
-Sitemap: https://psithiagopontes.com.br/sitemap.xml
