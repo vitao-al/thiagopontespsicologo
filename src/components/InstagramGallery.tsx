@@ -13,7 +13,7 @@ export default function InstagramGallery() {
   const [selectedPost, setSelectedPost] = useState<InstagramPost | null>(null);
 
   return (
-    <section id="instagram" className="py-20 bg-white dark:bg-neutral-900">
+    <section id="instagram" className="bg-white dark:bg-neutral-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-4">
