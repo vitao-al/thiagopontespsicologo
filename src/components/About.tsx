@@ -36,16 +36,28 @@ export default function About() {
             </h2>
             <p className="font-poppins font-normal text-neutral-900 dark:text-white mb-6">
 
-              Olá, sou <strong>Thiago Pontes</strong>, psicólogo com atuação em <strong>Terapia Cognitivo-Comportamental (TCC)</strong>, para adultos, idosos e famílias.
-              Acredito em um <strong>cuidado</strong> que integra <strong>ciência e prática</strong>, respeitando sua singularidade, 
-              promovendo qualidade de vida e bem-estar emocional em cada etapa da vida.
+              Sou psicólogo clínico e trabalho com a <strong>Terapia Cognitivo-Comportamental e terapias contextuais</strong> no cuidado em saúde mental.
+              <p/>
+              <p className="font-poppins font-normal text-neutral-900 dark:text-white mb-8">
+              
+              </p>
+              Ao longo da minha trajetória, fui percebendo que o <strong>sofrimento humano</strong> raramente se apresenta de forma simples ou isolada.
+              Muitas vezes ele <strong>aparece nas formas como pensamos, sentimos, nos relacionamos e lidamos com as diferentes experiências da vida.</strong>
+
               <p className="font-poppins font-normal text-neutral-900 dark:text-white mb-8">
               
               </p>
             <p className="text-neutral-900 dark:text-white mb-8">
-              Minha missão é ajudar você a <strong>viver de forma mais leve e conectada com o que realmente importa</strong>.
-              Seja lidando com ansiedade, enfrentando mudanças da vida ou buscando autoconhecimento,
-              <strong>estou aqui para caminhar ao seu lado</strong>, unindo teoria e prática em uma abordagem acolhedora e transformadora.
+              Na prática clínica, busco oferecer um <strong>espaço de escuta e reflexão sobre essas experiências,</strong> 
+              favorecendo a <strong>compreensão de padrões emocionais, cognitivos e relacionais</strong> que atravessam a história de cada pessoa.
+              <p>
+                <p className="font-poppins font-normal text-neutral-900 dark:text-white mb-8">
+              
+              </p>
+
+              </p>
+              Meu trabalho é orientado por conhecimento científico e por uma escuta atenta às singularidades de cada trajetória, 
+              compreendendo o <strong>cuidado em saúde mental como um processo de construção</strong> que pode se desenvolver em diferentes contextos da vida.
             </p>
             </p>
             

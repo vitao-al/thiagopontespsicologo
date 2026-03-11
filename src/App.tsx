@@ -17,7 +17,6 @@ function App() {
         <Hero />
         <About />
         <Services />
-        <InstagramGallery />
         <Contact />
       </main>
       <Footer />

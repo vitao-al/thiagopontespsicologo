@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-poppins font-normal text-gray-900 dark:text-white mb-4">Entre em Contato</h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto font-poppins font-normal">
-            Estamos à disposição para atender suas necessidades.
+            Estou à disposição para atender suas necessidades.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
