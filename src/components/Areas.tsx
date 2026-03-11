@@ -74,7 +74,7 @@ const ServiceCard = ({ service, index }: { service: typeof services[0], index: n
 
 export default function Areas() {
   return (
-    <section id="areas" className=" bg-white dark:bg-neutral-800">
+    <section id="areas" className=" bg-white dark:bg-neutral-800 py-5">
       <div className="container mx-auto px-4 py-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 font-poppins font-normal">Como posso te ajudar?</h2>

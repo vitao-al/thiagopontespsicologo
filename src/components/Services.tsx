@@ -88,7 +88,7 @@ const ServiceCard = ({ service, index }: { service: Service; index: number }) =>
 
 export default function Services() {
   return (
-    <section id="servicos" className="bg-white dark:bg-neutral-800">
+    <section id="servicos" className="bg-white dark:bg-neutral-800 py-5">
       <div className="container mx-auto px-4 py-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-musgo dark:text-white mb-4">MEUS SERVIÇOS</h2>
