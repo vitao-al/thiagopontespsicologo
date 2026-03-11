@@ -7,7 +7,7 @@ interface LawyerCardProps {
 
 export default function LawyerCard({ lawyer }: LawyerCardProps) {
   return (
-    <div className="bg-white rounded-lg shadow-sm overflow-hidden w-full max-w-80 mx-auto">
+    <div className="bg-white rounded-lg shadow-xl overflow-hidden w-full max-w-80 mx-auto">
       <div className="aspect-[3/4] relative">
         <img
           src={lawyer.image || '/path/to/default-image.jpg'}
@@ -15,7 +15,7 @@ export default function LawyerCard({ lawyer }: LawyerCardProps) {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="p-4 bg-white dark:bg-neutral-800">
+      <div className="p-4 bg-gray-50 dark:bg-neutral-800">
         <h3 className="text-lg font-poppins font-normal text-musgo mb-2">
           {lawyer.name}
         </h3>
