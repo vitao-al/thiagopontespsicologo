@@ -26,7 +26,7 @@ export default function Hero() {
                   href="https://api.whatsapp.com/send/?phone=%2B558299993802&text&type=phone_number&app_absent=0&wame_ctl=1"
                   className="inline-block bg-laranja text-white px-6 md:px-8 py-3 rounded-md font-semibold hover:bg-orange-700 dark:hover:bg-orange-700 transition-colors text-sm md:text-base text-center"
                 >
-                  Agendar
+                  Agendamentos
                 </a>
                 <a
                   href="https://api.whatsapp.com/send/?phone=%2B558299993802&text&type=phone_number&app_absent=0&wame_ctl=1"
@@ -37,14 +37,6 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Coluna da imagem: aparece abaixo no mobile, ao lado no desktop */}
-            <div className="w-full lg:w-1/2 flex items-center justify-center lg:justify-end">
-              <img
-                src="/thiagopontesperfil.jpeg"
-                alt="Imagem de destaque"
-                className="w-2/4 h-2/4 max-w-sm lg:max-w-full object-cover rounded-lg shadow-lg"
-              />
-            </div>
 
           </div>
         </div>

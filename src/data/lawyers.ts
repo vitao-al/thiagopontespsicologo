@@ -9,7 +9,7 @@ export interface Lawyer {
 export const lawyers: Lawyer[] = [
   {
     id: 1,
-    name: 'Thiago Vinícius Pontes Paes',
+    name: 'Thiago Vinicius Pontes Paes',
     specialties: ['Psicólogo Clínico'],
     image: '/thiagopontes5.jpeg',
     crp: 'CRP 15/8063'
