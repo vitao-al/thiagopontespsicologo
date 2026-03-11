@@ -91,7 +91,7 @@ export default function Services() {
     <section id="servicos" className="py-20 bg-white dark:bg-neutral-800">
       <div className="container mx-auto px-4 py-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-musgo dark:text-white mb-4 font-poppins">Meus serviços</h2>
+          <h2 className="text-3xl font-bold text-musgo dark:text-white mb-4">MEUS SERVIÇOS</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-poppins font-normal">
           {services.map((service, index) => (

@@ -81,7 +81,7 @@ export default function Areas() {
           <p className="text-neutral-800 dark:text-white max-w-2xl mx-auto font-poppins font-normal">
             A psicoterapia é um espaço seguro para desenvolver estratégias eficazes para lidar com suas emoções e desafios da vida.
           </p>
-          <p className="text-sm font-bold text-laranja dark:text-laranja mb-4 py-5">ÁREAS DE ATUAÇÃO</p>
+          <p className="text-md font-bold text-laranja dark:text-laranja mb-4 py-5">ÁREAS DE ATUAÇÃO</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-poppins font-normal">
           {services.map((service, index) => (
