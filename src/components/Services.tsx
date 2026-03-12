@@ -17,7 +17,7 @@ const services = [
     title: 'Projetos e palestras',
     description: (
       <>
-        Desenvolvimento de atividades voltadas à <strong>promoção da saúde mental em diferentes contextos institucionais</strong>, considerando seus <strong> objetivos e as necessidades.</strong>{' '}
+        Desenvolvimento de atividades voltadas à <strong>promoção da saúde mental em diferentes contextos institucionais</strong>, considerando seus <strong>objetivos e as necessidades.</strong>{' '}
         Palestras, rodas de conversa e encontros formativos para <strong>empresas</strong>, <strong>instituições</strong>, <strong>escolas</strong> e organizações.
       </>
     )
@@ -72,7 +72,7 @@ const ServiceCard = ({ service, index }: { service: Service; index: number }) =>
   return (
     <div
       ref={cardRef}
-      className={`bg-gray-50 shadow-xl dark:bg-black p-4 md:p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-700 ease-out ${
+      className={`bg-white shadow-xl dark:bg-black p-4 md:p-6 rounded-lg hover:shadow-md transition-all duration-700 ease-out ${
         isVisible
           ? 'opacity-100 translate-y-0'
           : 'opacity-0 translate-y-8'
@@ -90,8 +90,8 @@ export default function Services() {
   return (
     <section id="servicos" className="bg-white dark:bg-neutral-800 py-5">
       <div className="container mx-auto px-4 py-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-musgo dark:text-white mb-4">MEUS SERVIÇOS</h2>
+        <div className="text-center mb-6">
+          <h2 className="text-3xl font-normal font-poppins text-musgo dark:text-white">MEUS SERVIÇOS</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 font-poppins font-normal">
           {services.map((service, index) => (

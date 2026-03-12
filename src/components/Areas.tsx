@@ -58,7 +58,7 @@ const ServiceCard = ({ service, index }: { service: typeof services[0], index: n
   return (
     <div
       ref={cardRef}
-      className={`bg-white dark:bg-black p-4 md:p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-700 ease-out ${
+      className={`bg-gray-50 dark:bg-black p-4 md:p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-700 ease-out ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-8'
@@ -83,7 +83,7 @@ export default function Areas() {
           </p>
         </div>
         <div className="text-center">
-          <p className="text-3xl font-bold text-laranja dark:text-laranja ">ÁREAS DE ATUAÇÃO</p>
+          <p className="text-3xl font-normal text-laranja dark:text-laranja mb-5">ÁREAS DE ATUAÇÃO</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-poppins font-normal">
           {services.map((service, index) => (
