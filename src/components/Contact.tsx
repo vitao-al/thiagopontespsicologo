@@ -1,7 +1,8 @@
-import React from 'react';
 import { MapPin, Phone, Mail, Clock, Instagram } from 'lucide-react';
 
 export default function Contact() {
+  const instagramUrl = import.meta.env.LINK_INSTAGRAM;
+
   return (
     <section id="contato" className="py-20 bg-white dark:bg-neutral-900">
       <div className="container mx-auto px-4">
@@ -13,7 +14,7 @@ export default function Contact() {
         </div>
         <div className="text-center mt-6 mb-16 rounded-lg">
           <a
-            href="https://www.instagram.com/psithiagopontes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            href={instagramUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-laranja via-musgo to-berge text-white px-6 py-3 rounded-lg transition-colors font-semibold transition-all group shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
@@ -38,7 +39,7 @@ export default function Contact() {
                   <Phone className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">Telefone</h4>
-                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">+55 (82) 9999-3802</p>
+                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">+55 (82) xxx-xxxx</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">

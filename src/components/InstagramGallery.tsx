@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Instagram, Calendar, ExternalLink } from 'lucide-react';
 import { instagramPosts } from '../data/instagramPosts';
 import type { InstagramPost } from '../data/instagramPosts';
@@ -11,6 +11,7 @@ interface PostModalProps {
 
 export default function InstagramGallery() {
   const [selectedPost, setSelectedPost] = useState<InstagramPost | null>(null);
+  const instagramUrl = import.meta.env.LINK_INSTAGRAM;
 
   return (
     <section id="instagram" className="bg-white dark:bg-neutral-900">
@@ -66,7 +67,7 @@ export default function InstagramGallery() {
 
         <div className="text-center mt-12 rounded-lg p-1">
           <a
-            href="https://www.instagram.com/psithiagopontes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            href={instagramUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-laranja via-musgo to-berge text-white px-6 py-3 rounded-lg transition-colors font-semibold transition-all group shadow-xl hover:shadow-2xl transform hover:-translate-y-1"

@@ -1,6 +1,6 @@
-import React from 'react';
-
 export default function Hero() {
+  const whatsappUrl = import.meta.env.LINK_WHATSAPP;
+
   return (
     <section id="inicio" className="pt-20 lg:pt-24">
       <div className="relative min-h-[500px]">
@@ -23,7 +23,7 @@ export default function Hero() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://api.whatsapp.com/send/?phone=%2B558299993802&text&type=phone_number&app_absent=0&wame_ctl=1"
+                  href={whatsappUrl}
                   className="inline-block bg-laranja text-white px-6 md:px-8 py-3 rounded-md font-semibold hover:bg-orange-700 dark:hover:bg-orange-700 transition-colors text-sm md:text-base text-center
                   transition-all group shadow-xl hover:shadow-2xl transform hover:-translate-y-1
                   "
@@ -31,7 +31,7 @@ export default function Hero() {
                   Agendamentos
                 </a>
                 <a
-                  href="https://api.whatsapp.com/send/?phone=%2B558299993802&text&type=phone_number&app_absent=0&wame_ctl=1"
+                  href=""
                   className="inline-block bg-musgo text-white px-6 md:px-8 py-3 rounded-md font-semibold hover:bg-musgo-escuro dark:hover:bg-musgo-escuro transition-colors text-sm md:text-base text-center
                   transition-all group shadow-xl hover:shadow-2xl transform hover:-translate-y-1
                   "
