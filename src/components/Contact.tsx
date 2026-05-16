@@ -2,6 +2,7 @@ import { MapPin, Phone, Mail, Clock, Instagram } from 'lucide-react';
 
 export default function Contact() {
   const instagramUrl = import.meta.env.LINK_INSTAGRAM;
+  const mapsUrl = import.meta.env.LINK_MAPS;
 
   return (
     <section id="contato" className="py-20 bg-white dark:bg-neutral-900">
@@ -32,7 +33,7 @@ export default function Contact() {
                   <MapPin className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">Endereço</h4>
-                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">Rua comendador Palmeira, 493 - Empresarial Comendador Palmeira, sala 114 (Farol) Maceió/AL</p>
+                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">XXXXXXXXX</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -61,7 +62,7 @@ export default function Contact() {
           </div>
           <div className="h-[400px] lg:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.2579401122216!2d-35.7349994!3d-9.6589879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x701456639aa171f%3A0xccab7b5c3f755f71!2sPsic%C3%B3logo%20Thiago%20Pontes%20-%20Macei%C3%B3%20e%20On-line!5e0!3m2!1spt-BR!2sbr!4v1773077840982!5m2!1spt-BR!2sbr"
+              src={mapsUrl}
               className="w-full h-full rounded-lg border-2 border-gray-200 dark:border-gray-700"
               style={{ border: 0 }}
               allowFullScreen

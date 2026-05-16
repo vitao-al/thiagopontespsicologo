@@ -3,6 +3,7 @@
 interface ImportMetaEnv {
 	readonly LINK_WHATSAPP: string;
 	readonly LINK_INSTAGRAM: string;
+	readonly LINK_MAPS: string;
 }
 
 interface ImportMeta {
