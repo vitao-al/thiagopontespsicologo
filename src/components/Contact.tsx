@@ -33,7 +33,7 @@ export default function Contact() {
                   <MapPin className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">Endereço</h4>
-                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">Passando por mudanças - Novidades em breve</p>
+                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">Centro Empresarial Comendador Palmeira - R. Comendador Palmeira, 493 - Sl 114 - Farol, Maceió - AL, 57051-150</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
