@@ -40,7 +40,7 @@ export default function Contact() {
                   <Phone className="h-6 w-6 text-musgo dark:text-musgo-escuro mt-1" />
                   <div>
                     <h4 className="font-poppins font-normal text-gray-900 dark:text-white">Telefone</h4>
-                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">+55 (82) xxx-xxxx (Em manutenção)</p>
+                    <p className="text-sm md:text-base text-gray-600 dark:text-gray-400">+55 (82) 99105-1864</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
